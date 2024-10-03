@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <ul>
+       <li>first</li>
+       <li>second</li>
+   </ul> 
+   <ol>
+       <li>first</li>
+       <li>second</li>
+   </ol>
+   <ol type="1">
+       <li>first</li>
+       <li>second</li>
+    </ol>
+    <ol reversed>
+        <li>first1</li>
+        <li>second2</li>
+        <li>third3</li>
+        <li>fourth4</li>
+        <li>fifth5</li>
+    </ol>
+    <nav>
+        <ul>
+            <li> <a href="#">home</a></li>
+            <li> <a href="#">sale</a></li>
+        </ul>
+    </nav>
+    <!-- table --> 
+    <table border="4" style="width: 100%;">
+        <thead>
+            <tr>
+                <th>
+                   Name  
+                </th>
+                <th>
+                    Year
+                </th>
+                <th>
+                    Rating
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                 <td>
+                   Большая четверка 
+                 </td>
+                 <td>
+                    1927
+                 </td>
+                 <td>
+                    4,1
+                 </td>
+            </tr>
+            <tr>
+                 <td>
+                   Почему не Эванс
+                 </td>
+                 <td>
+                    1934
+                 </td>
+                 <td>
+                    4,3
+                 </td>
+            </tr>
+            <tr>
+                 <td>
+                    Труп в библиотеке
+                 </td>
+                 <td>
+                    1942
+                 </td>
+                 <td>
+                    4,5
+                 </td>
+            </tr>
+        </tbody>
+    </table>
+      <h3>
+        forms tag
+      </h3>
+    <form action="">
+        <div>
+            <label for="username">
+                username label 
+            </label>
+           <input id="username" type="text">             
+        </div> 
+
+    </form>
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="kris"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="mike"><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">
+      </form>
+      <br>
+      <form>
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="bus">
+        <label for="vehicle1"> I have a bus</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="car">
+        <label for="vehicle2"> I have a car</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="plane">
+        <label for="vehicle3"> I have a plane</label>
+      </form>
+      <br>
+      <form>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday">
+      </form>
+      <form>
+        <label for="week">Select a week:</label>
+        <input type="week" id="week" name="week">
+      </form>
+      <br>
+      <form>
+        <label for="appt">Select a time:</label>
+        <input type="time" id="appt" name="appt">
+      </form>
+      <form>
+        <label for="vol">Volume (between 0 and 100):</label>
+        <input type="range" id="vol" name="vol" min="0" max="100">
+      </form>
+      <br>
+      <form>
+        <label for="quantity">Quantity (between 1 and 20):</label>
+        <input type="number" id="quantity" name="quantity" min="1" max="20">
+      </form>
+      <br>
+      <form>
+        <label for="datemax">Enter a date before 1980-01-01:</label>
+        <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+        <label for="datemin">Enter a date after 2000-01-01:</label>
+        <input type="date" id="datemin" name="datemin" min="2000-01-02">
+      </form>
+      <form>
+        <label for="favcolor">Select your favorite color:</label>
+        <input type="color" id="favcolor" name="favcolor">
+      </form>
+      <input type="button" onclick="alert('Hey!Whats up?')" value="Click Me!">
+      <br>
+      <form>
+        <input type="image" src="images/image.png" alt="Submit" width="48" height="48">
+        </form>
+        
+</body>
+</html>
